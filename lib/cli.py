@@ -37,3 +37,11 @@ def library_menu():
     print("3. Remove Game")
     print("4. Back to Main Menu")
     return input("Choose an option: ")
+
+def search_menu():
+    print("\n=== Search Menu ===")
+    print("1. Search Games by Name")
+    print("2. Search Games by Genre")
+    print("3. Search Games by Developer")
+    print("4. Back to Main Menu")
+    return input("Choose an option: ")
