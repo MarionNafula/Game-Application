@@ -11,3 +11,12 @@ def main_menu():
     print("5. Account Menu")
     print("6. Exit")
     return input("Choose an option: ")
+
+def developer_menu():
+    print("\n=== Developer Management ===")
+    print("1. Create Developer")
+    print("2. List Developers")
+    print("3. Find Developer by ID")
+    print("4. Delete Developer")
+    print("5. Back to Main Menu")
+    return input("Choose an option: ")
