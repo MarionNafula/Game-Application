@@ -45,3 +45,10 @@ def search_menu():
     print("3. Search Games by Developer")
     print("4. Back to Main Menu")
     return input("Choose an option: ")
+
+def account_menu():
+    print("\n=== Account Menu ===")
+    print("1. View Account Information")
+    print("2. Edit Account Information")
+    print("3. Back to Main Menu")
+    return input("Choose an option: ")
