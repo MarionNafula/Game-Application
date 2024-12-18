@@ -20,3 +20,12 @@ def developer_menu():
     print("4. Delete Developer")
     print("5. Back to Main Menu")
     return input("Choose an option: ")
+
+def game_menu():
+    print("\n=== Game Management ===")
+    print("1. Create Game")
+    print("2. List Games")
+    print("3. Find Game by ID")
+    print("4. Delete Game")
+    print("5. Back to Main Menu")
+    return input("Choose an option: ")
