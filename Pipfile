@@ -10,3 +10,6 @@ ipdb = "*"
 
 [requires]
 python_version = "3.8"
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
