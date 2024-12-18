@@ -29,3 +29,11 @@ def game_menu():
     print("4. Delete Game")
     print("5. Back to Main Menu")
     return input("Choose an option: ")
+
+def library_menu():
+    print("\n=== Library Menu ===")
+    print("1. View Games")
+    print("2. Add Game")
+    print("3. Remove Game")
+    print("4. Back to Main Menu")
+    return input("Choose an option: ")
