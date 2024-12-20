@@ -47,30 +47,30 @@ Upon starting the application, you will see the main menu:
 Choose an option by entering the corresponding number.
 
 ### Developer Management
-- **Create Developer:**Add a new developer by providing their name.
-- **List Developers:**View all developers in the database.
-- **Find Developer by ID:**Find Developer by ID:
-- **Delete Developer:**Remove a developer from the database.
+- **Create Developer:** Add a new developer by providing their name.
+- **List Developers:** View all developers in the database.
+- **Find Developer by ID:** Find Developer by ID:
+- **Delete Developer:** Remove a developer from the database.
 
 ### Game Management
-- **Create Game:**Add a new game by providing its name, genre, and associated developer ID.
-- **List Games:**View all games in the database.
-- **Find Game by ID:**Retrieve a specific game's details using its ID.
-- **Delete Game:**Remove a game from the database.
+- **Create Game:** Add a new game by providing its name, genre, and associated developer ID.
+- **List Games:** View all games in the database.
+- **Find Game by ID:** Retrieve a specific game's details using its ID.
+- **Delete Game:** Remove a game from the database.
 
 ### Library Menu
-- **View Games:**Display all games in the library.
+- **View Games:** Display all games in the library.
 - **Add Game:** Add a new game to the library.
-- **Remove Game:**Delete a game from the library.
+- **Remove Game:** Delete a game from the library.
 
 ### Search Menu
-- **Search by Name:**Find games by their name.
-- **Search by Genre:**Find games by their genre.
-- **Search by Developer:**Find games associated with a specific developer.
+- **Search by Name:** Find games by their name.
+- **Search by Genre:** Find games by their genre.
+- **Search by Developer:** Find games associated with a specific developer.
 
 ### Account Menu
-- **View Account Information:**Display user account details.
-- **Edit Account Information:**Modify user account details (future enhancement).
+- **View Account Information:** Display user account details.
+- **Edit Account Information:** Modify user account details (future enhancement).
 
 ### Exiting the Application
 Choose option `6` from the main menu to exit the application.
