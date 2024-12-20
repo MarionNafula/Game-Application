@@ -87,8 +87,8 @@ Python 3.7 or later.
 
 2. Install dependencies using Pipenv:
 
-`pip install pipenv`
-`pipenv install`
+- `pip install pipenv`
+- `pipenv install`
 
 3. Activate the virtual environment:
 
