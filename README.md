@@ -82,21 +82,21 @@ Python 3.7 or later.
 ### Steps
 1. Clone the repository:
 
-git clone <repository-url>
-cd game_database
+`git clone git@github.com:MarionNafula/Game-Application.git`
+`cd Project3_Game_Application`
 
 2. Install dependencies using Pipenv:
 
-pip install pipenv
-pipenv install
+`pip install pipenv`
+`pipenv install`
 
 3. Activate the virtual environment:
 
-pipenv shell
+`pipenv shell`
 
 4. Run the application:
 
-python cli.py
+`python cli.py`
 
 
 
