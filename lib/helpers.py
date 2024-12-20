@@ -12,3 +12,17 @@ def get_user_input(prompt, allowed_values=None):
             print(f"Invalid input. Please choose from: {', '.join(allowed_values)}")
         else:
             return user_input
+        
+def display_table(data, headers):
+    """Display data in a tabular format."""
+    if not data:
+        print("No data available.")
+        return
+
+    # Print the headers
+    print(" | ".join(headers))
+    print("-" * (len(" | ".join(headers))))
+
+    # Print the rows
+    for row in data:
+        print(" | ".join(str(item) for item in row))
