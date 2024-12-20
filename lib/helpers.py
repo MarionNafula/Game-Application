@@ -26,3 +26,12 @@ def display_table(data, headers):
     # Print the rows
     for row in data:
         print(" | ".join(str(item) for item in row))
+
+def confirm_action(action):
+    """Ask the user to confirm an action."""
+    while True:
+        confirmation = input(f"Are you sure you want to {action}? (yes/no): ").lower()
+        if confirmation in ("yes", "no"):
+            return confirmation == "yes"
+        print("Invalid input. Please type 'yes' or 'no'.")
+
