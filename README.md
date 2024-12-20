@@ -103,6 +103,9 @@ Python 3.7 or later.
 **SQLite:** Lightweight, file-based database system.
 **Pipenv:** Dependency management and virtual environment.
 
+## Support and Contact Details
+If you have any questions, suggestions, or need assistance, please contact:
+- Email: wekesamarion100@gmail.com
 ## Debugging
 A debug.py script is provided for testing purposes. It initializes the database with sample data for developers and games.
 
