@@ -47,30 +47,30 @@ Upon starting the application, you will see the main menu:
 Choose an option by entering the corresponding number.
 
 ### Developer Management
-**Create Developer:**Add a new developer by providing their name.
-**List Developers:**View all developers in the database.
-**Find Developer by ID:**Find Developer by ID:
-**Delete Developer:**Remove a developer from the database.
+- **Create Developer:**Add a new developer by providing their name.
+- **List Developers:**View all developers in the database.
+- **Find Developer by ID:**Find Developer by ID:
+- **Delete Developer:**Remove a developer from the database.
 
 ### Game Management
-**Create Game:**Add a new game by providing its name, genre, and associated developer ID.
-**List Games:**View all games in the database.
-**Find Game by ID:**Retrieve a specific game's details using its ID.
-**Delete Game:**Remove a game from the database.
+- **Create Game:**Add a new game by providing its name, genre, and associated developer ID.
+- **List Games:**View all games in the database.
+- **Find Game by ID:**Retrieve a specific game's details using its ID.
+- **Delete Game:**Remove a game from the database.
 
 ### Library Menu
-**View Games:**Display all games in the library.
-**Add Game:** Add a new game to the library.
-**Remove Game:**Delete a game from the library.
+- **View Games:**Display all games in the library.
+- **Add Game:** Add a new game to the library.
+- **Remove Game:**Delete a game from the library.
 
 ### Search Menu
-**Search by Name:**Find games by their name.
-**Search by Genre:**Find games by their genre.
-**Search by Developer:**Find games associated with a specific developer.
+- **Search by Name:**Find games by their name.
+- **Search by Genre:**Find games by their genre.
+- **Search by Developer:**Find games associated with a specific developer.
 
 ### Account Menu
-**View Account Information:**Display user account details.
-**Edit Account Information:**Modify user account details (future enhancement).
+- **View Account Information:**Display user account details.
+- **Edit Account Information:**Modify user account details (future enhancement).
 
 ### Exiting the Application
 Choose option `6` from the main menu to exit the application.
@@ -99,13 +99,19 @@ Python 3.7 or later.
 `python cli.py`
 
 ## Technologies Used
-**Python:** Core language for application logic.
-**SQLite:** Lightweight, file-based database system.
-**Pipenv:** Dependency management and virtual environment.
+- **Python:** Core language for application logic.
+- **SQLite:** Lightweight, file-based database system.
+- **Pipenv:** Dependency management and virtual environment.
+
+## Related Repositories
+- **Game Management Utilities:** A repository providing extended functionalities for game data management.
+- **Developer Tools:** Tools and scripts for managing developer-related data.
+- **CLI Enhancements:** Enhancements and utilities for building command-line interfaces.
 
 ## Support and Contact Details
 If you have any questions, suggestions, or need assistance, please contact:
 - Email: wekesamarion100@gmail.com
+
 ## Debugging
 A debug.py script is provided for testing purposes. It initializes the database with sample data for developers and games.
 
@@ -124,7 +130,7 @@ To run the debug script:
 ## License
 MIT License
 
-Copyright © 2024 Dennis Kiboi
+Copyright © 2024 Marion Nafula
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
