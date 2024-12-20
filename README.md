@@ -1,4 +1,4 @@
-## Game Database CLI Application
+# Game Database CLI Application
 Game DB is a Command Line Interface(CLI) application that is designed to help you manage your game library using a database.
 
 By Marion Nafula
@@ -15,7 +15,7 @@ This application is built with a modular structure to ensure scalability and mai
 ### 1. Developer Management
 -Add new developers.
 -List all developers.
--Find a developer by ID.
+-Find a developer ID.
 -Delete a developer.
 
 ### 2. Game Management
@@ -32,4 +32,7 @@ This application is built with a modular structure to ensure scalability and mai
 
 ### 5. Account Menu
 -View and edit account information (future enhancement).
+
+## How to Use
+
 
