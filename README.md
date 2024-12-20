@@ -99,6 +99,9 @@ Python 3.7 or later.
 `python cli.py`
 
 ## Technologies Used
+**Python:** Core language for application logic.
+**SQLite:** Lightweight, file-based database system.
+**Pipenv:** Dependency management and virtual environment.
 
 ## Debugging
 A debug.py script is provided for testing purposes. It initializes the database with sample data for developers and games.
