@@ -13,26 +13,91 @@ This application is built with a modular structure to ensure scalability and mai
 
 ## Features
 ### 1. Developer Management
--Add new developers.
--List all developers.
--Find a developer ID.
--Delete a developer.
+ - Add new developers.
+ - List all developers.
+ - Find a developer ID.
+ - Delete a developer.
 
 ### 2. Game Management
--Add new games.
--List all games.
--Find a game by ID.
--Delete a game.
+ - Add new games.
+ - List all games.
+ - Find a game by ID.
+ - Delete a game.
 
 ### 3. Library Menu
--View, add, or remove games.
+ - View, add, or remove games.
 
 ### 4. Search Menu
--Search for games by name, genre, or developer.
+ - Search for games by name, genre, or developer.
 
 ### 5. Account Menu
--View and edit account information (future enhancement).
+ - View and edit account information (future enhancement).
 
 ## How to Use
+### Main Menu
+Upon starting the application, you will see the main menu:
+
+=== Game Database CLI ===
+1. Manage Developers
+2. Manage Games
+3. Library Menu
+4. Search Menu
+5. Account Menu
+6. Exit
+Choose an option by entering the corresponding number.
+
+### Developer Management
+**Create Developer:**Add a new developer by providing their name.
+**List Developers:**View all developers in the database.
+**Find Developer by ID:**Find Developer by ID:
+**Delete Developer:**Remove a developer from the database.
+
+### Game Management
+**Create Game:**Add a new game by providing its name, genre, and associated developer ID.
+**List Games:**View all games in the database.
+**Find Game by ID:**Retrieve a specific game's details using its ID.
+**Delete Game:**Remove a game from the database.
+
+### Library Menu
+**View Games:**Display all games in the library.
+**Add Game:** Add a new game to the library.
+**Remove Game:**Delete a game from the library.
+
+### Search Menu
+**Search by Name:**Find games by their name.
+**Search by Genre:**Find games by their genre.
+**Search by Developer:**Find games associated with a specific developer.
+
+### Account Menu
+**View Account Information:**Display user account details.
+**Edit Account Information:**Modify user account details (future enhancement).
+
+### Exiting the Application
+Choose option 6 from the main menu to exit the application.
+
+## Installation Process
+### Prerequisites
+Python 3.7 or later.
+
+### Steps
+1. Clone the repository:
+
+git clone <repository-url>
+cd game_database
+
+2. Install dependencies using Pipenv:
+
+pip install pipenv
+pipenv install
+
+3. Activate the virtual environment:
+
+pipenv shell
+
+4. Run the application:
+
+python cli.py
+
+
 
 
