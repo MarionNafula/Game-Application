@@ -73,7 +73,7 @@ Choose an option by entering the corresponding number.
 **Edit Account Information:**Modify user account details (future enhancement).
 
 ### Exiting the Application
-Choose option 6 from the main menu to exit the application.
+Choose option `6` from the main menu to exit the application.
 
 ## Installation Process
 ### Prerequisites
@@ -82,7 +82,7 @@ Python 3.7 or later.
 ### Steps
 1. Clone the repository:
 
-`git clone git@github.com:MarionNafula/Game-Application.git`
+`git clone git@github.com:MarionNafula/Game-Application.git.`
 `cd Project3_Game_Application`
 
 2. Install dependencies using Pipenv:
@@ -97,6 +97,23 @@ Python 3.7 or later.
 4. Run the application:
 
 `python cli.py`
+
+## Technologies Used
+
+## Debugging
+A debug.py script is provided for testing purposes. It initializes the database with sample data for developers and games.
+
+To run the debug script:
+`python debug.py`
+
+## Contributing
+1. Fork the repository.
+2. Create a feature branch:
+`git checkout -b feature-name`
+3. Commit your changes:
+`git commit -m "Add feature-name"`
+4. Push to the branch:
+`git push origin feature-name`
 
 
 
